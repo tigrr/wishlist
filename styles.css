@@ -50,3 +50,7 @@ article {
 	opacity: 0.5;
 	color: gray;
 }
+
+body:not(:has(.show-done:checked)) article.done {
+	display: none;
+}
